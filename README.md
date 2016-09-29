@@ -21,7 +21,7 @@ public enum MyAppColors : Color, ColorPalette {
 
 ## Font :capital_abcd:
 
-Includes `Font` protocol, and one concrete implementation for iOS system fonts.
+Includes `Font` protocol, and one concrete `SystemFont` implementation for iOS system fonts.
 
 Usage:
 
