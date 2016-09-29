@@ -6,7 +6,7 @@
 
 ## Color :art:
 
-Includes `Color` protocol.
+Includes `Color` and `ColorPalette` protocols.
 
 Usage:
 
@@ -21,7 +21,7 @@ public enum MyAppColors : Color, ColorPalette {
 
 ## Font :capital_abcd:
 
-Includes `Font` protocol, and one concrete `SystemFont` implementation for iOS system fonts.
+Includes `Font` protocol, and one concrete `SystemFont` implementation for **iOS** system fonts.
 
 Usage:
 
@@ -83,7 +83,7 @@ open class MyAppCostume : Costume {
 
   public func wearHeadline(_ label: UILabel) {
     label.font = MyAppFont(size: .textStyle(.title1)).fontValue
-    label.color = MyAppColors.forestGreen.colorValue
+    label.textColor = MyAppColors.forestGreen.colorValue
   }
 
   public var name: String { return "Default" }
