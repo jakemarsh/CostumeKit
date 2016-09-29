@@ -10,7 +10,7 @@ import Foundation
 
 #if os(iOS)
   public typealias FontType = UIFont
-#elseif os(macOS)
+#elseif os(OSX)
   public typealias FontType = NSFont
 #endif
 

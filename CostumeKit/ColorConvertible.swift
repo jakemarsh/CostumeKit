@@ -10,7 +10,7 @@ import Foundation
 
 #if os(iOS)
   public typealias ColorType = UIColor
-#elseif os(macOS)
+#elseif os(OSX)
   public typealias ColorType = NSColor
 #endif
 
@@ -19,7 +19,7 @@ public protocol ColorConvertible {
 }
 
 extension ColorConvertible {
-  public func darkened(_ amount: Float = 0.4) -> ColorType {
+  public func darkened(_: Float = 0.4) -> ColorType {
     return self.colorValue // TODO: Darken
   }
 }
