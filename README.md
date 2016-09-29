@@ -82,8 +82,8 @@ open class MyAppCostume : Costume {
   }
 
   public func wearHeadline(_ t=label: UILabel) {
-    label.font = MyAppFont(size: .textStyle(.title1))
-    label.color = MyAppColors.forestGreen
+    label.font = MyAppFont(size: .textStyle(.title1)).fontValue
+    label.color = MyAppColors.forestGreen.colorValue
   }
 
   public var name: String { return "Default" }
