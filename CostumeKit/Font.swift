@@ -22,7 +22,7 @@ extension Font {
     var pointSize: CGFloat
 
     switch size {
-    case .textStyle(let style): pointSize = UIFont.preferredFont(forTextStyle: style).pointSize
+    case .textStyle(let style): pointSize = UIFont.preferredFontForTextStyle((style) as String).pointSize
     case .fixed(let ps): pointSize = ps + CGFloat(fixedSizeModifier)
     }
 
@@ -30,21 +30,20 @@ extension Font {
   }
 
   var fixedSizeModifier: Int {
-    let contentSize = UIApplication.shared.preferredContentSizeCategory
+    let contentSize = UIApplication.sharedApplication().preferredContentSizeCategory
 
     switch contentSize {
-    case UIContentSizeCategory.accessibilityExtraExtraExtraLarge: return 9
-    case UIContentSizeCategory.accessibilityExtraExtraLarge: return 8
-    case UIContentSizeCategory.accessibilityExtraLarge: return 7
-    case UIContentSizeCategory.accessibilityLarge: return 6
-    case UIContentSizeCategory.accessibilityMedium: return 5
-    case UIContentSizeCategory.extraExtraExtraLarge: return 4
-    case UIContentSizeCategory.extraExtraLarge: return 3
-    case UIContentSizeCategory.extraLarge: return 2
-    case UIContentSizeCategory.large: return 1
-    case UIContentSizeCategory.medium: return 0
-    case UIContentSizeCategory.small: return -1
-    case UIContentSizeCategory.extraSmall: return -2
+    case UIContentSizeCategoryAccessibilityExtraExtraLarge: return 8
+    case UIContentSizeCategoryAccessibilityExtraLarge: return 7
+    case UIContentSizeCategoryAccessibilityLarge: return 6
+    case UIContentSizeCategoryAccessibilityMedium: return 5
+    case UIContentSizeCategoryExtraExtraExtraLarge: return 4
+    case UIContentSizeCategoryExtraExtraLarge: return 3
+    case UIContentSizeCategoryExtraLarge: return 2
+    case UIContentSizeCategoryLarge: return 1
+    case UIContentSizeCategoryMedium: return 0
+    case UIContentSizeCategorySmall: return -1
+    case UIContentSizeCategoryExtraSmall: return -2
     default: return 0
     }
   }

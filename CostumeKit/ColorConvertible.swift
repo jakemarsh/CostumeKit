@@ -19,7 +19,7 @@ public protocol ColorConvertible {
 }
 
 extension ColorConvertible {
-  public func darkened(amount: Float = 0.4) -> ColorType {
+  public func darkened(_ amount: Float = 0.4) -> ColorType {
     return self.colorValue // TODO: Darken
   }
 }
