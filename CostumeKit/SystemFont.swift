@@ -22,7 +22,7 @@ public struct SystemFont : Font {
 
   // FontConvertible
 
-  public var FontValue: UIFont {
+  public var fontValue: UIFont {
     return .systemFont(ofSize: pointSize, weight: weight)
   }
 }
