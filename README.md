@@ -4,6 +4,8 @@
 
 **CostumeKit** is made of up a set of Swift protocols. They are meant to be implemented by you in your app.
 
+Featured in [_Little Bites of Cocoa Bite #270: Implementing Theming with CostumeKit_](https://www.littlebitesofcocoa.com/270-implementing-theming-with-costumekit)
+
 ## Color :art:
 
 Includes `Color` and `ColorPalette` protocols.
