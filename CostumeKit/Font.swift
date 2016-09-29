@@ -20,18 +20,18 @@ public enum FontSize {
 extension Font {
   public var pointSize: CGFloat {
     var pointSize: CGFloat
-    
+
     switch size {
     case .textStyle(let style): pointSize = UIFont.preferredFont(forTextStyle: style).pointSize
     case .fixed(let ps): pointSize = ps + CGFloat(fixedSizeModifier)
     }
-    
+
     return pointSize
   }
 
   var fixedSizeModifier: Int {
     let contentSize = UIApplication.shared.preferredContentSizeCategory
-    
+
     switch contentSize {
     case UIContentSizeCategory.accessibilityExtraExtraExtraLarge: return 9
     case UIContentSizeCategory.accessibilityExtraExtraLarge: return 8
