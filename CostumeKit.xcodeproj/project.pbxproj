@@ -16,7 +16,7 @@
 		30E1A6BB1D9CEAC200E63D0E /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6B31D9CEAC200E63D0E /* SystemFont.swift */; };
 		30E1A6BD1D9CEB8D00E63D0E /* FontConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6BC1D9CEB8D00E63D0E /* FontConvertible.swift */; };
 		30E1A6BF1D9CEBB100E63D0E /* ColorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6BE1D9CEBB100E63D0E /* ColorConvertible.swift */; };
-		30E1A6C11D9CEE6300E63D0E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6C01D9CEE6300E63D0E /* README.md */; };
+		30E1A6C31D9CF1E300E63D0E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6C21D9CF1E300E63D0E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		30E1A6B31D9CEAC200E63D0E /* SystemFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemFont.swift; sourceTree = "<group>"; };
 		30E1A6BC1D9CEB8D00E63D0E /* FontConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontConvertible.swift; sourceTree = "<group>"; };
 		30E1A6BE1D9CEBB100E63D0E /* ColorConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConvertible.swift; sourceTree = "<group>"; };
-		30E1A6C01D9CEE6300E63D0E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		30E1A6C21D9CF1E300E63D0E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 		30E1A6AB1D9CEAAC00E63D0E /* infrastructure */ = {
 			isa = PBXGroup;
 			children = (
-				30E1A6C01D9CEE6300E63D0E /* README.md */,
+				30E1A6C21D9CF1E300E63D0E /* README.md */,
 				30E1A6A31D9CEA9B00E63D0E /* CostumeKit.h */,
 				30E1A6A41D9CEA9B00E63D0E /* Info.plist */,
 			);
@@ -174,7 +174,7 @@
 				30E1A6B61D9CEAC200E63D0E /* Costume.swift in Sources */,
 				30E1A6B81D9CEAC200E63D0E /* Font.swift in Sources */,
 				30E1A6BD1D9CEB8D00E63D0E /* FontConvertible.swift in Sources */,
-				30E1A6C11D9CEE6300E63D0E /* README.md in Sources */,
+				30E1A6C31D9CF1E300E63D0E /* README.md in Sources */,
 				30E1A6B51D9CEAC200E63D0E /* ColorPalette.swift in Sources */,
 				30E1A6BB1D9CEAC200E63D0E /* SystemFont.swift in Sources */,
 			);
