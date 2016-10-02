@@ -67,7 +67,7 @@ extension MyAppSVGs : SVG {
 }
 ```
 
-What you do with `SVGMetadata` is up to you. I recommend [SwiftSVG](https://github.com/mchoe/SwiftSVG) from [Michael Choe]([https://github.com/mchoe).
+What you do with `SVGMetadata` is up to you. I recommend [SwiftSVG](https://github.com/mchoe/SwiftSVG) from [Michael Choe](https://github.com/mchoe). [Read  more here to learn how to use it](https://www.littlebitesofcocoa.com/198-parsing-rendering-svgs-with-swiftsvg).
 
 **CostumeKit**'s goals are to be a generic solution, so no assumptions are made about how something should be retrieved from disk, parsed, etc. You'll need to implement these anyways, so nothing is forced on you.
 
