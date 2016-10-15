@@ -15,7 +15,7 @@ import Foundation
 #endif
 
 public protocol FontConvertible {
-  var fontValue: UIFont { get }
+  var fontValue: FontType { get }
 }
 
 extension FontType : FontConvertible {
