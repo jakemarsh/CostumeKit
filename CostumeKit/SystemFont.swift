@@ -9,9 +9,9 @@
 import Foundation
 
 public struct SystemFont : Font {
-  public var weight: CGFloat = UIFontWeightRegular
+  public var weight: CGFloat = UIFont.Weight.regular.rawValue
 
-  public init(size: FontSize = .textStyle(.body), weight: CGFloat = UIFontWeightRegular) {
+  public init(size: FontSize = .textStyle(.body), weight: CGFloat = UIFont.Weight.regular) {
     self.size = size
     self.weight = weight
   }
@@ -23,6 +23,6 @@ public struct SystemFont : Font {
   // FontConvertible
 
   public var fontValue: UIFont {
-    return .systemFont(ofSize: pointSize, weight: weight)
+    return .systemFont(ofSize: pointSize, weight: UIFont.Weight(rawValue: weight))
   }
 }
