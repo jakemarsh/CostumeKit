@@ -11,7 +11,7 @@ import Foundation
 public struct SystemFont : Font {
   public var weight: CGFloat = UIFont.Weight.regular.rawValue
 
-  public init(size: FontSize = .textStyle(.body), weight: CGFloat = UIFont.Weight.regular) {
+  public init(size: FontSize = .textStyle(.body), weight: CGFloat = UIFont.Weight.regular.rawValue) {
     self.size = size
     self.weight = weight
   }
