@@ -4,6 +4,8 @@
 
 **CostumeKit** is made of up a set of Swift protocols. They are meant to be implemented by you in your app.
 
+Featured in [_Little Bites of Cocoa Bite #270: Implementing Theming with CostumeKit_](https://www.littlebitesofcocoa.com/270-implementing-theming-with-costumekit)
+
 ## Color :art:
 
 Includes `Color` and `ColorPalette` protocols.
@@ -65,7 +67,7 @@ extension MyAppSVGs : SVG {
 }
 ```
 
-What you do with `SVGMetadata` is up to you. I recommend [SwiftSVG](https://github.com/mchoe/SwiftSVG) from [Michael Choe]([https://github.com/mchoe).
+What you do with `SVGMetadata` is up to you. I recommend [SwiftSVG](https://github.com/mchoe/SwiftSVG) from [Michael Choe](https://github.com/mchoe). [Read  more here to learn how to use it](https://www.littlebitesofcocoa.com/198-parsing-rendering-svgs-with-swiftsvg).
 
 **CostumeKit**'s goals are to be a generic solution, so no assumptions are made about how something should be retrieved from disk, parsed, etc. You'll need to implement these anyways, so nothing is forced on you.
 
