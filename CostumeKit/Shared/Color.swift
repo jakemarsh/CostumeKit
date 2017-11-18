@@ -11,13 +11,13 @@ import Foundation
 public typealias Color = String
 
 extension Color : ColorConvertible {
-  public var colorValue: UIColor {
-    return UIColor(hexString: self)!
+  public var colorValue: ColorType {
+    return ColorType(hexString: self)!
   }
 
-  public static let none = UIColor.clear
-  public static let white = UIColor.white
-  public static let black = UIColor.black
+  public static let none = ColorType.clear
+  public static let white = ColorType.white
+  public static let black = ColorType.black
 }
 
 //  SwiftHEXColors.swift
@@ -44,10 +44,8 @@ extension Color : ColorConvertible {
 
 #if os(iOS) || os(tvOS)
   import UIKit
-  typealias SWColor = UIColor
-#else
+#elseif os(macOS)
   import Cocoa
-  typealias SWColor = NSColor
 #endif
 
 private extension Int {
@@ -57,7 +55,7 @@ private extension Int {
 }
 
 /// An extension of UIColor (on iOS) or NSColor (on OSX) providing HEX color handling.
-public extension SWColor {
+public extension ColorType {
   /**
    Create non-autoreleased color with in the given hex string. Alpha will be set as 1 by default.
    

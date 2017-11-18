@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3006A5C01FBFF8FD00F2C61C /* CostumeKit_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3006A5BE1FBFF8FC00F2C61C /* CostumeKit_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3006A5CD1FBFF91100F2C61C /* CostumeKit_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3006A5CB1FBFF91100F2C61C /* CostumeKit_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3006A5DA1FBFF92800F2C61C /* CostumeKit_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3006A5D81FBFF92800F2C61C /* CostumeKit_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3006A5DF1FBFF94A00F2C61C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6AC1D9CEAC200E63D0E /* Color.swift */; };
+		3006A5E01FBFF94A00F2C61C /* ColorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6BE1D9CEBB100E63D0E /* ColorConvertible.swift */; };
+		3006A5E11FBFF94A00F2C61C /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6AD1D9CEAC200E63D0E /* ColorPalette.swift */; };
+		3006A5E21FBFF94A00F2C61C /* Costume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6AE1D9CEAC200E63D0E /* Costume.swift */; };
+		3006A5E31FBFF94A00F2C61C /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6B01D9CEAC200E63D0E /* Font.swift */; };
+		3006A5E41FBFF94A00F2C61C /* FontConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6BC1D9CEB8D00E63D0E /* FontConvertible.swift */; };
+		3006A5E51FBFF94A00F2C61C /* SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6B11D9CEAC200E63D0E /* SVG.swift */; };
+		3006A5E61FBFF94A00F2C61C /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6B31D9CEAC200E63D0E /* SystemFont.swift */; };
+		3006A5E71FBFF94A00F2C61C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6AC1D9CEAC200E63D0E /* Color.swift */; };
+		3006A5E81FBFF94A00F2C61C /* ColorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6BE1D9CEBB100E63D0E /* ColorConvertible.swift */; };
+		3006A5E91FBFF94A00F2C61C /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6AD1D9CEAC200E63D0E /* ColorPalette.swift */; };
+		3006A5EA1FBFF94A00F2C61C /* Costume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6AE1D9CEAC200E63D0E /* Costume.swift */; };
+		3006A5EB1FBFF94A00F2C61C /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6B01D9CEAC200E63D0E /* Font.swift */; };
+		3006A5EC1FBFF94A00F2C61C /* FontConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6BC1D9CEB8D00E63D0E /* FontConvertible.swift */; };
+		3006A5ED1FBFF94A00F2C61C /* SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6B11D9CEAC200E63D0E /* SVG.swift */; };
+		3006A5EE1FBFF94A00F2C61C /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6B31D9CEAC200E63D0E /* SystemFont.swift */; };
+		3006A5EF1FBFF94B00F2C61C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6AC1D9CEAC200E63D0E /* Color.swift */; };
+		3006A5F01FBFF94B00F2C61C /* ColorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6BE1D9CEBB100E63D0E /* ColorConvertible.swift */; };
+		3006A5F11FBFF94B00F2C61C /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6AD1D9CEAC200E63D0E /* ColorPalette.swift */; };
+		3006A5F21FBFF94B00F2C61C /* Costume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6AE1D9CEAC200E63D0E /* Costume.swift */; };
+		3006A5F31FBFF94B00F2C61C /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6B01D9CEAC200E63D0E /* Font.swift */; };
+		3006A5F41FBFF94B00F2C61C /* FontConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6BC1D9CEB8D00E63D0E /* FontConvertible.swift */; };
+		3006A5F51FBFF94B00F2C61C /* SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6B11D9CEAC200E63D0E /* SVG.swift */; };
+		3006A5F61FBFF94B00F2C61C /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6B31D9CEAC200E63D0E /* SystemFont.swift */; };
 		30E1A6A51D9CEA9B00E63D0E /* CostumeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E1A6A31D9CEA9B00E63D0E /* CostumeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30E1A6B41D9CEAC200E63D0E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6AC1D9CEAC200E63D0E /* Color.swift */; };
 		30E1A6B51D9CEAC200E63D0E /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6AD1D9CEAC200E63D0E /* ColorPalette.swift */; };
@@ -16,11 +43,19 @@
 		30E1A6BB1D9CEAC200E63D0E /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6B31D9CEAC200E63D0E /* SystemFont.swift */; };
 		30E1A6BD1D9CEB8D00E63D0E /* FontConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6BC1D9CEB8D00E63D0E /* FontConvertible.swift */; };
 		30E1A6BF1D9CEBB100E63D0E /* ColorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6BE1D9CEBB100E63D0E /* ColorConvertible.swift */; };
-		30E1A6C31D9CF1E300E63D0E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A6C21D9CF1E300E63D0E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30E1A6A01D9CEA9B00E63D0E /* CostumeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CostumeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3006A5BC1FBFF8FC00F2C61C /* CostumeKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CostumeKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3006A5BE1FBFF8FC00F2C61C /* CostumeKit_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CostumeKit_macOS.h; sourceTree = "<group>"; };
+		3006A5BF1FBFF8FD00F2C61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3006A5C91FBFF91100F2C61C /* CostumeKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CostumeKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3006A5CB1FBFF91100F2C61C /* CostumeKit_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CostumeKit_tvOS.h; sourceTree = "<group>"; };
+		3006A5CC1FBFF91100F2C61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3006A5D61FBFF92800F2C61C /* CostumeKit_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CostumeKit_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3006A5D81FBFF92800F2C61C /* CostumeKit_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CostumeKit_watchOS.h; sourceTree = "<group>"; };
+		3006A5D91FBFF92800F2C61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E1A6A01D9CEA9B00E63D0E /* CostumeKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CostumeKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E1A6A31D9CEA9B00E63D0E /* CostumeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CostumeKit.h; sourceTree = "<group>"; };
 		30E1A6A41D9CEA9B00E63D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30E1A6AC1D9CEAC200E63D0E /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -35,6 +70,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3006A5B81FBFF8FC00F2C61C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3006A5C51FBFF91100F2C61C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3006A5D21FBFF92800F2C61C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		30E1A69C1D9CEA9B00E63D0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,26 +101,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30E1A6961D9CEA9B00E63D0E = {
+		3006A5BD1FBFF8FC00F2C61C /* CostumeKit-macOS */ = {
 			isa = PBXGroup;
 			children = (
-				30E1A6A21D9CEA9B00E63D0E /* CostumeKit */,
-				30E1A6A11D9CEA9B00E63D0E /* Products */,
+				3006A5BE1FBFF8FC00F2C61C /* CostumeKit_macOS.h */,
+				3006A5BF1FBFF8FD00F2C61C /* Info.plist */,
 			);
+			path = "CostumeKit-macOS";
 			sourceTree = "<group>";
 		};
-		30E1A6A11D9CEA9B00E63D0E /* Products */ = {
+		3006A5CA1FBFF91100F2C61C /* CostumeKit-tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				30E1A6A01D9CEA9B00E63D0E /* CostumeKit.framework */,
+				3006A5CB1FBFF91100F2C61C /* CostumeKit_tvOS.h */,
+				3006A5CC1FBFF91100F2C61C /* Info.plist */,
 			);
-			name = Products;
+			path = "CostumeKit-tvOS";
 			sourceTree = "<group>";
 		};
-		30E1A6A21D9CEA9B00E63D0E /* CostumeKit */ = {
+		3006A5D71FBFF92800F2C61C /* CostumeKit-watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				30E1A6AB1D9CEAAC00E63D0E /* infrastructure */,
+				3006A5D81FBFF92800F2C61C /* CostumeKit_watchOS.h */,
+				3006A5D91FBFF92800F2C61C /* Info.plist */,
+			);
+			path = "CostumeKit-watchOS";
+			sourceTree = "<group>";
+		};
+		3006A5DE1FBFF93A00F2C61C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
 				30E1A6AC1D9CEAC200E63D0E /* Color.swift */,
 				30E1A6BE1D9CEBB100E63D0E /* ColorConvertible.swift */,
 				30E1A6AD1D9CEAC200E63D0E /* ColorPalette.swift */,
@@ -73,6 +139,37 @@
 				30E1A6BC1D9CEB8D00E63D0E /* FontConvertible.swift */,
 				30E1A6B11D9CEAC200E63D0E /* SVG.swift */,
 				30E1A6B31D9CEAC200E63D0E /* SystemFont.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		30E1A6961D9CEA9B00E63D0E = {
+			isa = PBXGroup;
+			children = (
+				30E1A6A21D9CEA9B00E63D0E /* CostumeKit */,
+				3006A5BD1FBFF8FC00F2C61C /* CostumeKit-macOS */,
+				3006A5CA1FBFF91100F2C61C /* CostumeKit-tvOS */,
+				3006A5D71FBFF92800F2C61C /* CostumeKit-watchOS */,
+				30E1A6A11D9CEA9B00E63D0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30E1A6A11D9CEA9B00E63D0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E1A6A01D9CEA9B00E63D0E /* CostumeKit_iOS.framework */,
+				3006A5BC1FBFF8FC00F2C61C /* CostumeKit_macOS.framework */,
+				3006A5C91FBFF91100F2C61C /* CostumeKit_tvOS.framework */,
+				3006A5D61FBFF92800F2C61C /* CostumeKit_watchOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E1A6A21D9CEA9B00E63D0E /* CostumeKit */ = {
+			isa = PBXGroup;
+			children = (
+				3006A5DE1FBFF93A00F2C61C /* Shared */,
+				30E1A6AB1D9CEAAC00E63D0E /* infrastructure */,
 			);
 			path = CostumeKit;
 			sourceTree = "<group>";
@@ -90,6 +187,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3006A5B91FBFF8FC00F2C61C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3006A5C01FBFF8FD00F2C61C /* CostumeKit_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3006A5C61FBFF91100F2C61C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3006A5CD1FBFF91100F2C61C /* CostumeKit_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3006A5D31FBFF92800F2C61C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3006A5DA1FBFF92800F2C61C /* CostumeKit_watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		30E1A69D1D9CEA9B00E63D0E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,9 +222,63 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		30E1A69F1D9CEA9B00E63D0E /* CostumeKit */ = {
+		3006A5BB1FBFF8FC00F2C61C /* CostumeKit-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30E1A6A81D9CEA9B00E63D0E /* Build configuration list for PBXNativeTarget "CostumeKit" */;
+			buildConfigurationList = 3006A5C11FBFF8FD00F2C61C /* Build configuration list for PBXNativeTarget "CostumeKit-macOS" */;
+			buildPhases = (
+				3006A5B71FBFF8FC00F2C61C /* Sources */,
+				3006A5B81FBFF8FC00F2C61C /* Frameworks */,
+				3006A5B91FBFF8FC00F2C61C /* Headers */,
+				3006A5BA1FBFF8FC00F2C61C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CostumeKit-macOS";
+			productName = "CostumeKit-macOS";
+			productReference = 3006A5BC1FBFF8FC00F2C61C /* CostumeKit_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3006A5C81FBFF91100F2C61C /* CostumeKit-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3006A5CE1FBFF91100F2C61C /* Build configuration list for PBXNativeTarget "CostumeKit-tvOS" */;
+			buildPhases = (
+				3006A5C41FBFF91100F2C61C /* Sources */,
+				3006A5C51FBFF91100F2C61C /* Frameworks */,
+				3006A5C61FBFF91100F2C61C /* Headers */,
+				3006A5C71FBFF91100F2C61C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CostumeKit-tvOS";
+			productName = "CostumeKit-tvOS";
+			productReference = 3006A5C91FBFF91100F2C61C /* CostumeKit_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3006A5D51FBFF92800F2C61C /* CostumeKit-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3006A5DB1FBFF92800F2C61C /* Build configuration list for PBXNativeTarget "CostumeKit-watchOS" */;
+			buildPhases = (
+				3006A5D11FBFF92800F2C61C /* Sources */,
+				3006A5D21FBFF92800F2C61C /* Frameworks */,
+				3006A5D31FBFF92800F2C61C /* Headers */,
+				3006A5D41FBFF92800F2C61C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CostumeKit-watchOS";
+			productName = "CostumeKit-watchOS";
+			productReference = 3006A5D61FBFF92800F2C61C /* CostumeKit_watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		30E1A69F1D9CEA9B00E63D0E /* CostumeKit-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E1A6A81D9CEA9B00E63D0E /* Build configuration list for PBXNativeTarget "CostumeKit-iOS" */;
 			buildPhases = (
 				30E1A69B1D9CEA9B00E63D0E /* Sources */,
 				30E1A69C1D9CEA9B00E63D0E /* Frameworks */,
@@ -114,9 +289,9 @@
 			);
 			dependencies = (
 			);
-			name = CostumeKit;
+			name = "CostumeKit-iOS";
 			productName = CostumeKit;
-			productReference = 30E1A6A01D9CEA9B00E63D0E /* CostumeKit.framework */;
+			productReference = 30E1A6A01D9CEA9B00E63D0E /* CostumeKit_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -125,12 +300,23 @@
 		30E1A6971D9CEA9B00E63D0E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Jake Marsh";
 				TargetAttributes = {
+					3006A5BB1FBFF8FC00F2C61C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3006A5C81FBFF91100F2C61C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3006A5D51FBFF92800F2C61C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					30E1A69F1D9CEA9B00E63D0E = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = WAPMUZDLZP;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -148,12 +334,36 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30E1A69F1D9CEA9B00E63D0E /* CostumeKit */,
+				30E1A69F1D9CEA9B00E63D0E /* CostumeKit-iOS */,
+				3006A5BB1FBFF8FC00F2C61C /* CostumeKit-macOS */,
+				3006A5C81FBFF91100F2C61C /* CostumeKit-tvOS */,
+				3006A5D51FBFF92800F2C61C /* CostumeKit-watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3006A5BA1FBFF8FC00F2C61C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3006A5C71FBFF91100F2C61C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3006A5D41FBFF92800F2C61C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		30E1A69E1D9CEA9B00E63D0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -164,6 +374,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3006A5B71FBFF8FC00F2C61C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3006A5E51FBFF94A00F2C61C /* SVG.swift in Sources */,
+				3006A5E21FBFF94A00F2C61C /* Costume.swift in Sources */,
+				3006A5DF1FBFF94A00F2C61C /* Color.swift in Sources */,
+				3006A5E41FBFF94A00F2C61C /* FontConvertible.swift in Sources */,
+				3006A5E31FBFF94A00F2C61C /* Font.swift in Sources */,
+				3006A5E01FBFF94A00F2C61C /* ColorConvertible.swift in Sources */,
+				3006A5E11FBFF94A00F2C61C /* ColorPalette.swift in Sources */,
+				3006A5E61FBFF94A00F2C61C /* SystemFont.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3006A5C41FBFF91100F2C61C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3006A5ED1FBFF94A00F2C61C /* SVG.swift in Sources */,
+				3006A5EA1FBFF94A00F2C61C /* Costume.swift in Sources */,
+				3006A5E71FBFF94A00F2C61C /* Color.swift in Sources */,
+				3006A5EC1FBFF94A00F2C61C /* FontConvertible.swift in Sources */,
+				3006A5EB1FBFF94A00F2C61C /* Font.swift in Sources */,
+				3006A5E81FBFF94A00F2C61C /* ColorConvertible.swift in Sources */,
+				3006A5E91FBFF94A00F2C61C /* ColorPalette.swift in Sources */,
+				3006A5EE1FBFF94A00F2C61C /* SystemFont.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3006A5D11FBFF92800F2C61C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3006A5F51FBFF94B00F2C61C /* SVG.swift in Sources */,
+				3006A5F21FBFF94B00F2C61C /* Costume.swift in Sources */,
+				3006A5EF1FBFF94B00F2C61C /* Color.swift in Sources */,
+				3006A5F41FBFF94B00F2C61C /* FontConvertible.swift in Sources */,
+				3006A5F31FBFF94B00F2C61C /* Font.swift in Sources */,
+				3006A5F01FBFF94B00F2C61C /* ColorConvertible.swift in Sources */,
+				3006A5F11FBFF94B00F2C61C /* ColorPalette.swift in Sources */,
+				3006A5F61FBFF94B00F2C61C /* SystemFont.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		30E1A69B1D9CEA9B00E63D0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,7 +429,6 @@
 				30E1A6B61D9CEAC200E63D0E /* Costume.swift in Sources */,
 				30E1A6B81D9CEAC200E63D0E /* Font.swift in Sources */,
 				30E1A6BD1D9CEB8D00E63D0E /* FontConvertible.swift in Sources */,
-				30E1A6C31D9CF1E300E63D0E /* README.md in Sources */,
 				30E1A6B51D9CEAC200E63D0E /* ColorPalette.swift in Sources */,
 				30E1A6BB1D9CEAC200E63D0E /* SystemFont.swift in Sources */,
 			);
@@ -183,6 +437,214 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		3006A5C21FBFF8FD00F2C61C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "CostumeKit-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magnus.CostumeKit-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		3006A5C31FBFF8FD00F2C61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "CostumeKit-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magnus.CostumeKit-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		3006A5CF1FBFF91100F2C61C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "CostumeKit-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magnus.CostumeKit-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		3006A5D01FBFF91100F2C61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "CostumeKit-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magnus.CostumeKit-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		3006A5DC1FBFF92800F2C61C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "CostumeKit-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magnus.CostumeKit-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		3006A5DD1FBFF92800F2C61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "CostumeKit-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magnus.CostumeKit-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
 		30E1A6A61D9CEA9B00E63D0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -192,7 +654,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -200,7 +664,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -245,7 +714,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -253,7 +724,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -288,15 +764,16 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = WAPMUZDLZP;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CostumeKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jakemarsh.CostumeKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CostumeKit_iOS;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
@@ -310,15 +787,16 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = WAPMUZDLZP;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CostumeKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jakemarsh.CostumeKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CostumeKit_iOS;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -328,6 +806,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3006A5C11FBFF8FD00F2C61C /* Build configuration list for PBXNativeTarget "CostumeKit-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3006A5C21FBFF8FD00F2C61C /* Debug */,
+				3006A5C31FBFF8FD00F2C61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3006A5CE1FBFF91100F2C61C /* Build configuration list for PBXNativeTarget "CostumeKit-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3006A5CF1FBFF91100F2C61C /* Debug */,
+				3006A5D01FBFF91100F2C61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3006A5DB1FBFF92800F2C61C /* Build configuration list for PBXNativeTarget "CostumeKit-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3006A5DC1FBFF92800F2C61C /* Debug */,
+				3006A5DD1FBFF92800F2C61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		30E1A69A1D9CEA9B00E63D0E /* Build configuration list for PBXProject "CostumeKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -337,7 +842,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30E1A6A81D9CEA9B00E63D0E /* Build configuration list for PBXNativeTarget "CostumeKit" */ = {
+		30E1A6A81D9CEA9B00E63D0E /* Build configuration list for PBXNativeTarget "CostumeKit-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30E1A6A91D9CEA9B00E63D0E /* Debug */,

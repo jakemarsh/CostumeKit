@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreGraphics
 
 public protocol SVG {
   func metadata() -> SVGMetadata

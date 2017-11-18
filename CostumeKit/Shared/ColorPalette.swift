@@ -13,5 +13,5 @@ public protocol ColorPalette : ColorConvertible {
 }
 
 public extension ColorPalette {
-  var colorValue: UIColor { return rawValue.colorValue }
+  var colorValue: ColorType { return rawValue.colorValue }
 }

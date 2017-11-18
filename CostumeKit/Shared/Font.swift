@@ -7,29 +7,45 @@
 //
 
 import Foundation
+import CoreGraphics
+
+#if os(iOS) || os(tvOS) || os(watchOS)
+  import UIKit
+#endif
 
 public protocol Font : FontConvertible {
   var size: FontSize { get set }
 }
 
 public enum FontSize {
+  #if os(iOS) || os(tvOS) || os(watchOS)
   case textStyle(_: UIFontTextStyle)
+  #endif
+
   case fixed(_: CGFloat)
 }
 
 extension Font {
   public var pointSize: CGFloat {
-    var pointSize: CGFloat
+    var pointSize: CGFloat!
+
+    #if os(iOS) || os(tvOS) || os(watchOS)
+    switch size {
+    case .textStyle(let style): pointSize = FontType.preferredFont(forTextStyle: style).pointSize
+    default: break
+    }
+    #endif
 
     switch size {
-    case .textStyle(let style): pointSize = UIFont.preferredFont(forTextStyle: style).pointSize
     case .fixed(let ps): pointSize = ps + CGFloat(fixedSizeModifier)
+    default: break
     }
 
     return pointSize
   }
 
   var fixedSizeModifier: Int {
+    #if os(iOS) || os(tvOS)
     let contentSize = UIApplication.shared.preferredContentSizeCategory
 
     switch contentSize {
@@ -47,5 +63,10 @@ extension Font {
     case UIContentSizeCategory.extraSmall: return -2
     default: return 0
     }
+    #elseif os(macOS)
+    return 0
+    #elseif os(watchOS)
+    return 0
+    #endif
   }
 }

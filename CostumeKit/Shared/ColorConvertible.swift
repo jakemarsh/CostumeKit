@@ -8,9 +8,11 @@
 
 import Foundation
 
-#if os(iOS)
+#if os(iOS) || os(tvOS) || os(watchOS)
+  import UIKit
   public typealias ColorType = UIColor
 #elseif os(macOS)
+  import Cocoa
   public typealias ColorType = NSColor
 #endif
 
@@ -24,6 +26,12 @@ extension ColorConvertible {
   }
 }
 
-extension ColorType : ColorConvertible {
-  public var colorValue: ColorType { return self }
-}
+#if os(iOS) || os(tvOS)
+  extension UIColor : ColorConvertible {
+    public var colorValue: ColorType { return self }
+  }
+#elseif os(macOS)
+  extension NSColor : ColorConvertible {
+    public var colorValue: NSColor { return self }
+  }
+#endif

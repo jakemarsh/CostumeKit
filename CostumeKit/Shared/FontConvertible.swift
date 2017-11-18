@@ -8,14 +8,16 @@
 
 import Foundation
 
-#if os(iOS)
+#if os(iOS) || os(tvOS) || os(watchOS)
+  import UIKit
   public typealias FontType = UIFont
 #elseif os(macOS)
+  import Cocoa
   public typealias FontType = NSFont
 #endif
 
 public protocol FontConvertible {
-  var fontValue: UIFont { get }
+  var fontValue: FontType { get }
 }
 
 extension FontType : FontConvertible {
